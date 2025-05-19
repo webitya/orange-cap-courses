@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import AdminLayout from "@/components/admin/AdminLayout"
+
 import CourseForm from "@/components/admin/CourseForm"
+import AdminLayout from "@/components/admin/AdminLayout"
 
 export default function CreateCoursePage() {
   const router = useRouter()
