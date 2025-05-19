@@ -77,7 +77,7 @@ export default function ContactPage() {
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
             <h2 className="text-2xl font-bold mb-6">Get In Touch</h2>
             <p className="text-gray-600 mb-8">
-              Have questions about our courses or need more information? Fill out the form and we'll get back to you as
+              Have questions about our courses or need more information? Fill out the form and we will get back to you as
               soon as possible.
             </p>
 
@@ -118,7 +118,7 @@ export default function ContactPage() {
             {success ? (
               <div className="bg-green-100 border border-green-400 text-green-700 px-6 py-8 rounded-lg text-center">
                 <h3 className="text-xl font-bold mb-4">Message Sent Successfully!</h3>
-                <p className="mb-6">Thank you for contacting us. We'll get back to you as soon as possible.</p>
+                <p className="mb-6">Thank you for contacting us. We will get back to you as soon as possible.</p>
                 <button
                   onClick={() => setSuccess(false)}
                   className="px-6 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition-colors"
