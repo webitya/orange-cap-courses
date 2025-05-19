@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
-import AdminLayout from "@/components/admin/AdminLayout"
+
 import { Add, Edit, Delete } from "@mui/icons-material"
+import AdminLayout from "@/Components/admin/AdminLayout"
 
 export default function AdminCoursesPage() {
   const router = useRouter()

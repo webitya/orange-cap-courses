@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
-import AdminLayout from "@/components/admin/AdminLayout"
-import DashboardCards from "@/components/admin/DashboardCards"
+import AdminLayout from "@/Components/admin/AdminLayout"
+import DashboardCards from "@/Components/admin/DashboardCards"
+
 
 export default function AdminDashboardPage() {
   const router = useRouter()
