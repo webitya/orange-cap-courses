@@ -1,13 +1,13 @@
-import Hero from "@/components/homepage/Hero"
-import ClassesSection from "@/components/homepage/ClassesSection"
-import AboutSection from "@/components/homepage/AboutSection"
-import CoursesSection from "@/components/homepage/CoursesSection"
-import EventsSection from "@/components/homepage/EventsSection"
-import TestimonialsSection from "@/components/homepage/TestimonialsSection"
-import RegisterSection from "@/components/homepage/RegisterSection"
-import BlogSection from "@/components/homepage/BlogSection"
-import InstructorCTA from "@/components/homepage/InstructorCTA"
-import StatsSection from "@/components/homepage/StatsSection"
+import AboutSection from "@/Components/homepage/AboutSection";
+import BlogSection from "@/Components/homepage/BlogSection";
+import ClassesSection from "@/Components/homepage/ClassesSection";
+import CoursesSection from "@/Components/homepage/CoursesSection";
+import EventsSection from "@/Components/homepage/EventsSection";
+import Hero from "@/Components/homepage/Hero";
+import InstructorCTA from "@/Components/homepage/InstructorCTA";
+import RegisterSection from "@/Components/homepage/RegisterSection";
+import StatsSection from "@/Components/homepage/StatsSection";
+import TestimonialsSection from "@/Components/homepage/TestimonialsSection";
 
 export default function Home() {
   return (
