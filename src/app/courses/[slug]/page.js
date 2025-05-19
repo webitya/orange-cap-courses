@@ -66,7 +66,7 @@ export default async function CoursePage({ params }) {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">Course Not Found</h1>
-          <p className="mb-8">The course you're looking for doesn't exist or has been removed.</p>
+          <p className="mb-8">The course you arere looking for does not exist or has been removed.</p>
           <Link
             href="/courses"
             className="px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
@@ -121,7 +121,7 @@ export default async function CoursePage({ params }) {
             </div>
 
             <div className="mb-8">
-              <h2 className="text-2xl font-bold mb-4">What You'll Learn</h2>
+              <h2 className="text-2xl font-bold mb-4">What You will Learn</h2>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {course.features.map((feature, index) => (
                   <li key={index} className="flex items-start">
